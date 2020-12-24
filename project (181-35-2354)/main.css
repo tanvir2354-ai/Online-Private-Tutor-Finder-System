@@ -1,0 +1,164 @@
+*{
+    margin 0;
+    padding 0;
+}
+#header{
+    height: 100vh;
+    background-image: url(blue0517.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 150px;
+}
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #f67c92;
+    z-index: 2;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li{
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+/*---about----*/
+#about {
+    padding: 100px 0;
+    display: fles;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col {
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 50%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    
+}
+
+/*---parents---*/
+#parents
+{
+    padding: 100px;
+}
+.parents-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.parents-right-col{
+    flex-basis: 50%;
+}
+.parents-right-colimg{
+    width: 50s%
+}
+.parents-left-col{
+    flex-basis: 50%;
+}
+/*---tutor---*/
+#tutor
+{
+    padding: 100px;
+}
+.tutor-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tutor-right-col{
+    flex-basis: 30%;
+}
+.tutor-right-colimg{
+    width: 30%
+}
+.tutor-left-col{
+    flex-basis: 30%;
+}
+/*---ratings---*/
+#ratings
+{
+    padding: 50px;
+}
+.ratings-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ratings-right-col{
+    flex-basis: 50%;
+}
+.ratings-right-colimg{
+    width: 30%
+}
+.ratings-left-col{
+    flex-basis: 30%;
+}
+
+/*---contacts---*/
+#contacts
+{
+    padding: 50px;
+}
+.ratings-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ratings-right-col{
+    flex-basis: 30%;
+}
+.ratings-right-colimg{
+    width: 30%
+}
+.ratings-left-col{
+    flex-basis: 30%;
+}
+form{
+    max-width: 350PX;
+    margin: 30px 0;
+
+}
+form input{
+    width: 100%
+    padding: 12px10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab;
+}
